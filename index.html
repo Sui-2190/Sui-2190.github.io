@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aotea College Polyfest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Polyfest</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Polyfest.html">About</a></li>
+            <li><a href="Contacts.html">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="Card Background Image 1.jpg">
+            <div class="card-content">
+                <h3>History and Culture</h3>
+                <p>Polyfest has a deep history which is very important to know and there are also many cultures
+                    that are performed on the Polyfest stage, and this tab will show all the wonder history and cultures.
+                </p>
+                <a href="History and Culture.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Card Background Image 2.jpg">
+            <div class="card-content">
+                <h3>Reasons To Join</h3>
+                <p>There are many reasons to join, wether it be social benefits or just stepping out you're comfort
+                    zone, and this tab will explain it all.
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <a href="ReasonsToJoin.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Personal Opinion.png">
+            <div class="card-content">
+                <h3>My Personal Experience</h3>
+                <p>There are many reaons why I joined Polyfest and many things I have gained from Polyfest,
+                    which will all be in this tab.
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <a href="Personal Experience.html" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
